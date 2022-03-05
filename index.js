@@ -10,4 +10,4 @@ client.on('messageCreate', message => {
     message.reply({ content: 'Pong'})
   }
   
-client.login("ODk2OTI0NzkxMzA1NTUxOTA0.YWOMTg.crPH1CXJjqqidFZxjFUopNysDZg");
+client.login(process.env.TOKEN);
