@@ -1,17 +1,31 @@
 {
-  "name": "goddy_516",
-  "version": "1.0.0",
-  "description": "",
+  "name": "discordbot-template",
+  "version": "5.0.3",
+  "description": "Advanced Template",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileCraft/DiscordBot-Template.git"
+  },
+  "keywords": [
+    "Yes"
+  ],
+  "author": "RileCraft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RileCraft/DiscordBot-Template/issues"
+  },
+  "homepage": "https://github.com/RileCraft/DiscordBot-Template#readme",
   "dependencies": {
-    "@types/node": "^17.0.21",
-    "crypto": "^1.0.1",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
     "discord.js": "^13.6.0",
-    "node": "^17.4.0",
-    "typescript": "^4.5.5"
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "cli-box": "^6.0.10",
+    "quick.db": "^7.1.3"
   }
 }
