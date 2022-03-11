@@ -7,7 +7,7 @@ client.once("ready", () => {
 
 client.on('messageCreate', message => {
   if (message.content === 'ping') {
-    message.reply({ content: 'Pong'})
+    message.reply('Pong')
   }
 });
 client.login(process.env.TOKEN);
