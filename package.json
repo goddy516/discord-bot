@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "discord.js": "^13.6.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint ."
   },
-  "keywords": [],
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiscordBotPortalJP/discordjs-startup.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.24.2"
+  }
 }
