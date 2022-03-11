@@ -12,6 +12,5 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
