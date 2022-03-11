@@ -11,4 +11,4 @@ client.on('messageCreate', message => {
     message.reply('Pong')
   }
 });
-client.login(process.env.DISCORD_BOT_TOKEN);
+client.login(process.env.DISCORD_TOKEN);
